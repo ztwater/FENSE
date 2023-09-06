@@ -16,7 +16,7 @@ if __name__ == '__main__':
     LANG = ['c','java','python']
     col = ['NF', 'ENTROPY', 'LA', 'LD', 'LT', 'FIX', 'NBR'] # change metrics
     metrics = ['roc_auc','precision','recall','f1','pofb20','p_opt'] # evaluation metrics
-    res_dir = '../results_new2'
+    res_dir = '../results'
     K = []
     K += [2*x+1 for x in range(15)] 
     K += [5*x+4 for x in range(6,20)]

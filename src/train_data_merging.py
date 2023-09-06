@@ -67,4 +67,4 @@ if __name__ == '__main__':
     wp_model.fit(X_all, y_all)
 
     # store the best model
-    dump(wp_model.best_estimator_, f'../within_project_result/data_merging_{turns}.joblib')   
+    dump(wp_model.best_estimator_, f'../models/data_merging_{turns}.joblib')   

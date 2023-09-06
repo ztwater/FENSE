@@ -242,7 +242,7 @@ if __name__ == '__main__':
                     
         df = pd.read_csv('../features.csv')
         reg_train_file_after_vif = f'../regression_data/regression_train_after_vif_{turn}.csv'
-        reg_test_file_after_vif  = f'../regression_data/regression_test_after_vif_{turn}.csv
+        reg_test_file_after_vif  = f'../regression_data/regression_test_after_vif_{turn}.csv'
         
         vif_col = ['n_commits', 'local_roc_auc', 'ratio', 'prjA_popularity', 'prjB_popularity', 'prjA_age', 'prjB_age', 'same_owner_type', 'same_license', 'same_language', 'text_sim', 'prjA_n_external', 'prjB_n_external', 'n_core_diff', 'n_external_diff', 'n_intersection', 'contribution_entropy_diff', 'size_diff', 'dep_intersection', 'dep_diff']
         reg_train_df = pd.read_csv(reg_train_file)

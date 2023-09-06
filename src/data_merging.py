@@ -17,7 +17,7 @@ if __name__ == '__main__':
     LANG = ['c','java','python']
     col = ['NF', 'ENTROPY', 'LA', 'LD', 'LT', 'FIX', 'NBR'] # change metrics
     metrics = ['roc_auc','precision','recall','f1','pofb20','p_opt'] # evaluation metrics
-    res_dir = '../results_new2'
+    res_dir = '../results'
     
     for turn in range(1,turns+1):
         print(f'---------- turn {turn} ----------')

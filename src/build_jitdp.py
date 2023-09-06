@@ -88,4 +88,4 @@ if __name__ == '__main__':
             if roc_auc < 0.5:
                 continue
             # store the best model
-            dump(wp_model.best_estimator_, f'../within_project_result/{lang}/model_{idx}.joblib')
+            dump(wp_model.best_estimator_, f'../models/models_{lang}/model_{idx}.joblib')
